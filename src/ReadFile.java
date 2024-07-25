@@ -34,7 +34,7 @@ public class ReadFile {
                 i = br.read();
             }
             System.out.println("Text from File: " + text);
-
+            Integer.parseInt("10");
             br.close();
             isr.close();
             fis.close();
